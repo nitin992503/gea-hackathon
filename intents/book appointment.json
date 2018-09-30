@@ -1,0 +1,42 @@
+{
+  "id": "af530898-b86a-4ad2-b039-41de70e2d920",
+  "name": "book appointment",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "bookappointment-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "book",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Can you please provide model number and serial number",
+            "To help you better we need model number and serial number"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538228507,
+  "fallbackIntent": false,
+  "events": []
+}

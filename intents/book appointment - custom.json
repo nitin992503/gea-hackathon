@@ -1,0 +1,55 @@
+{
+  "id": "1d73360a-1fe3-4058-8403-450ba9b03dc8",
+  "parentId": "af530898-b86a-4ad2-b039-41de70e2d920",
+  "rootParentId": "af530898-b86a-4ad2-b039-41de70e2d920",
+  "name": "book appointment - custom",
+  "auto": true,
+  "contexts": [
+    "bookappointment-followup",
+    "book"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bookappointment.bookappointment-custom",
+      "affectedContexts": [
+        {
+          "name": "bookappointment-custom-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8905aa6d-31a7-4f89-9424-985335e18941",
+          "required": true,
+          "dataType": "@serial-data",
+          "name": "serial-data",
+          "value": "$serial-data",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter model number"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538317371,
+  "fallbackIntent": false,
+  "events": []
+}

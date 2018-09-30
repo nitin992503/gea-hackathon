@@ -1,0 +1,33 @@
+{
+  "id": "d788756b-d61c-4ce9-ade2-cbb080883fe2",
+  "parentId": "1d73360a-1fe3-4058-8403-450ba9b03dc8",
+  "rootParentId": "af530898-b86a-4ad2-b039-41de70e2d920",
+  "name": "book appointment - custom - no",
+  "auto": true,
+  "contexts": [
+    "bookappointment-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bookappointment.bookappointment-custom.bookappointment-custom-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1531859391,
+  "fallbackIntent": false,
+  "events": []
+}

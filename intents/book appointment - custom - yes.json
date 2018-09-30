@@ -1,0 +1,39 @@
+{
+  "id": "670f3520-6f51-447a-9052-8ac38ef56a53",
+  "parentId": "1d73360a-1fe3-4058-8403-450ba9b03dc8",
+  "rootParentId": "af530898-b86a-4ad2-b039-41de70e2d920",
+  "name": "book appointment - custom - yes",
+  "auto": true,
+  "contexts": [
+    "bookappointment-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bookappointment.bookappointment-custom.bookappointment-custom-yes",
+      "affectedContexts": [
+        {
+          "name": "bookappointment-custom-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "We need some details to book a appointment , please enter your email."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538144967,
+  "fallbackIntent": false,
+  "events": []
+}

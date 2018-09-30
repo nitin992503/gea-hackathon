@@ -1,0 +1,106 @@
+{
+  "id": "23726aae-d21d-4326-862b-b10af783b849",
+  "parentId": "670f3520-6f51-447a-9052-8ac38ef56a53",
+  "rootParentId": "af530898-b86a-4ad2-b039-41de70e2d920",
+  "name": "book appointment - custom - yes - custom",
+  "auto": true,
+  "contexts": [
+    "bookappointment-custom-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bookappointment.bookappointment-custom.bookappointment-custom-yes.bookappointment-custom-yes-custom",
+      "affectedContexts": [
+        {
+          "name": "bookappointment-custom-yes-custom-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d9ccc203-c25b-4b5d-b995-28d290473fa7",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "email",
+          "value": "$email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter your email"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "18d4d091-3ee9-41b4-975c-bd38c04e1067",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phone_number",
+          "value": "$phone",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please enter your mobile number"
+            }
+          ]
+        },
+        {
+          "id": "eb408e6d-000c-441c-af7a-551a8005f236",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "address",
+          "value": "$add",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please enter your address"
+            }
+          ]
+        },
+        {
+          "id": "27e1f4ae-cdd1-4e0c-90cc-93658f7802b9",
+          "required": true,
+          "dataType": "@sys.zip-code",
+          "name": "pincode",
+          "value": "$zip",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter your pincode"
+            }
+          ]
+        },
+        {
+          "id": "d99d1577-b7e4-456b-ae56-c5282b1ba700",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "problem",
+          "value": "$prob",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please describe your issue in detail"
+            }
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538145395,
+  "fallbackIntent": false,
+  "events": []
+}

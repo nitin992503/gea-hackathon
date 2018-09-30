@@ -1,0 +1,48 @@
+{
+  "id": "58005cb2-86b8-4859-a73d-3ed170c5cd05",
+  "parentId": "45f3a781-0045-4d30-adeb-21730bc32ef4",
+  "rootParentId": "45f3a781-0045-4d30-adeb-21730bc32ef4",
+  "name": "cancel - appointment - custom",
+  "auto": true,
+  "contexts": [
+    "Cancel-appointment-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Cancel-appointment.Cancel-appointment-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "69790048-bddd-48d2-8978-23df1569ae99",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "id",
+          "value": "$id",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please enter your service id"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538329652,
+  "fallbackIntent": false,
+  "events": []
+}

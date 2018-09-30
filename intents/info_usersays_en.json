@@ -1,0 +1,119 @@
+[
+  {
+    "id": "ed52bf3b-61bd-482d-948d-36f812c323d2",
+    "data": [
+      {
+        "text": "get ,y ",
+        "userDefined": false
+      },
+      {
+        "text": "service appointment",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "information",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538228130
+  },
+  {
+    "id": "c7d06b60-b7f8-4a90-9227-4dc5b454358a",
+    "data": [
+      {
+        "text": "get my appointment ",
+        "userDefined": false
+      },
+      {
+        "text": "information",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538145998
+  },
+  {
+    "id": "870eb567-f93c-4d80-8ed0-8a4094d3fe49",
+    "data": [
+      {
+        "text": "inquire",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "service appointment",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538145998
+  },
+  {
+    "id": "7910b729-9d95-4a68-aa99-6ea880f975ca",
+    "data": [
+      {
+        "text": "need ",
+        "userDefined": false
+      },
+      {
+        "text": "service appointment",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "details",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538145998
+  },
+  {
+    "id": "bcfe6bb8-c6fd-41c1-ba9a-4a546b47138c",
+    "data": [
+      {
+        "text": "Get ",
+        "userDefined": false
+      },
+      {
+        "text": "appointment",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "info",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538145998
+  }
+]

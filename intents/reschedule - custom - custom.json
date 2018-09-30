@@ -1,0 +1,41 @@
+{
+  "id": "89760fa4-5853-47dc-9677-b136fb71a434",
+  "parentId": "130f7735-cc78-4100-9348-bf737cf66ce3",
+  "rootParentId": "b7d46152-770c-4c0e-b247-3c8ccbc91739",
+  "name": "reschedule - custom - custom",
+  "auto": true,
+  "contexts": [
+    "reschedule-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Reschedule-appointment.Reschedule-appointment-custom.reschedule-custom-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "7c7bb63c-51fc-41ed-a927-c2099b96c1e5",
+          "dataType": "@sys.number",
+          "name": "slot",
+          "value": "$slot",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538328839,
+  "fallbackIntent": false,
+  "events": []
+}

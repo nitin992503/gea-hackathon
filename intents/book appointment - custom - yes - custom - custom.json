@@ -1,0 +1,43 @@
+{
+  "id": "b882a733-abb4-4843-90c4-77400fa65031",
+  "parentId": "23726aae-d21d-4326-862b-b10af783b849",
+  "rootParentId": "af530898-b86a-4ad2-b039-41de70e2d920",
+  "name": "book appointment - custom - yes - custom - custom",
+  "auto": true,
+  "contexts": [
+    "bookappointment-custom-yes-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bookappointment.bookappointment-custom.bookappointment-custom-yes.bookappointment-custom-yes-custom.bookappointment-custom-yes-custom-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f27697f3-f822-4aa7-a9ee-72f9e0c70214",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "slot",
+          "value": "$slot",
+          "prompts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538166589,
+  "fallbackIntent": false,
+  "events": []
+}

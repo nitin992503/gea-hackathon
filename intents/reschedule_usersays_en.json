@@ -1,0 +1,105 @@
+[
+  {
+    "id": "fb6ef2d0-53cf-454b-9064-17c95a5ea135",
+    "data": [
+      {
+        "text": "reschedule ",
+        "userDefined": false
+      },
+      {
+        "text": "appointment",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538228313
+  },
+  {
+    "id": "91c8e29f-3bf5-4ed5-ae4a-564d0036b300",
+    "data": [
+      {
+        "text": "reschedule ",
+        "userDefined": false
+      },
+      {
+        "text": "service appointment",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538228313
+  },
+  {
+    "id": "31778c78-0c95-41b4-b9a7-e952da3aff2c",
+    "data": [
+      {
+        "text": "can you please ",
+        "userDefined": false
+      },
+      {
+        "text": "reschedule",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " my ",
+        "userDefined": false
+      },
+      {
+        "text": "appointment",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537801228
+  },
+  {
+    "id": "17144994-ffb1-4621-bd0a-f1042770a402",
+    "data": [
+      {
+        "text": "I would like to ",
+        "userDefined": false
+      },
+      {
+        "text": "reschedule",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " my ",
+        "userDefined": false
+      },
+      {
+        "text": "appointment",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537801228
+  },
+  {
+    "id": "7c99e672-047a-4eaf-8af2-959cede9baf3",
+    "data": [
+      {
+        "text": "I want to reschedule my ",
+        "userDefined": false
+      },
+      {
+        "text": "service appointment",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537801228
+  }
+]

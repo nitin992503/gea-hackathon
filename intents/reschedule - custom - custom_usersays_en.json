@@ -1,0 +1,48 @@
+[
+  {
+    "id": "6dbec669-3f29-4b02-8068-7dba926499a2",
+    "data": [
+      {
+        "text": "slot ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "slot",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538328839
+  },
+  {
+    "id": "853ea772-b5d8-43fa-9cd2-e8b088a239b9",
+    "data": [
+      {
+        "text": "2",
+        "alias": "slot",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538328839
+  },
+  {
+    "id": "1950c7b5-a811-4f05-8846-720d18eb64de",
+    "data": [
+      {
+        "text": "1",
+        "alias": "slot",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538328839
+  }
+]

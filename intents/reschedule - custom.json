@@ -1,0 +1,62 @@
+{
+  "id": "130f7735-cc78-4100-9348-bf737cf66ce3",
+  "parentId": "b7d46152-770c-4c0e-b247-3c8ccbc91739",
+  "rootParentId": "b7d46152-770c-4c0e-b247-3c8ccbc91739",
+  "name": "reschedule - custom",
+  "auto": true,
+  "contexts": [
+    "Reschedule-appointment-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Reschedule-appointment.Reschedule-appointment-custom",
+      "affectedContexts": [
+        {
+          "name": "reschedule-custom-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f13919b1-a1a0-4514-ba0c-a07bd121801f",
+          "required": false,
+          "dataType": "@Appointment",
+          "name": "Appointment",
+          "value": "$Appointment",
+          "isList": false
+        },
+        {
+          "id": "4b35c114-56ac-4169-b280-fdd8e3b70c2e",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "id",
+          "value": "$id",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please enter your service id"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538329593,
+  "fallbackIntent": false,
+  "events": []
+}

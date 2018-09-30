@@ -1,0 +1,58 @@
+[
+  {
+    "id": "7b16e3b3-3d80-4285-9acf-0e9e8412c67d",
+    "data": [
+      {
+        "text": "socioplay@gmail.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538145395
+  },
+  {
+    "id": "ce99a542-4227-4504-8aa5-f22489dca58c",
+    "data": [
+      {
+        "text": "raju@gmail.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538145395
+  },
+  {
+    "id": "5f9a630b-dc5d-4af7-9aed-6f7383d8e6db",
+    "data": [
+      {
+        "text": "sohan@yahoo.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538145395
+  },
+  {
+    "id": "ed78b9af-cf8f-4d1f-bde0-a62d0c81d63d",
+    "data": [
+      {
+        "text": "nitin992503@gmail.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538145395
+  }
+]

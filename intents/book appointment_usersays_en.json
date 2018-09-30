@@ -1,0 +1,244 @@
+[
+  {
+    "id": "23383b63-2cdc-4059-b544-5f839612b833",
+    "data": [
+      {
+        "text": "book a ",
+        "userDefined": false
+      },
+      {
+        "text": "appointment",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538228507
+  },
+  {
+    "id": "ac615866-099d-4a67-8493-26c075226892",
+    "data": [
+      {
+        "text": "book a ",
+        "userDefined": false
+      },
+      {
+        "text": "service appointment",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538228507
+  },
+  {
+    "id": "347335fa-ec21-4b92-a493-e80e310668f1",
+    "data": [
+      {
+        "text": "Book",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Service Appointment",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538160341
+  },
+  {
+    "id": "64664516-fb28-4b23-bc4f-101f2b854e2d",
+    "data": [
+      {
+        "text": "book",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " appointment\u0027",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1538227819
+  },
+  {
+    "id": "ff4853a0-f179-4ba7-b7ed-9474c541aab5",
+    "data": [
+      {
+        "text": "unable to get my ",
+        "userDefined": false
+      },
+      {
+        "text": "washing machine",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " working",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1536651047
+  },
+  {
+    "id": "d227f00e-0351-43ca-8dbe-7d0b96776e8c",
+    "data": [
+      {
+        "text": "cannot start my ",
+        "userDefined": false
+      },
+      {
+        "text": "dryer",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1536651047
+  },
+  {
+    "id": "f1acd235-e1ca-4596-8be9-5158fad82cf5",
+    "data": [
+      {
+        "text": "need urgent help with my ",
+        "userDefined": false
+      },
+      {
+        "text": "wall oven",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1536651047
+  },
+  {
+    "id": "47e808eb-a38e-4209-9633-4614b2565a68",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "dryer",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " is broken",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1536651047
+  },
+  {
+    "id": "8d16f766-4a09-42c9-aa79-2c8eb53e1134",
+    "data": [
+      {
+        "text": "washing machine",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " not working",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1536568369
+  },
+  {
+    "id": "c6b0c86a-7886-4a22-9c5c-deddf22ed9bc",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "wall oven",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " is not working",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1536567414
+  },
+  {
+    "id": "e7c7e190-cd87-40cc-bb32-a0b238d4e601",
+    "data": [
+      {
+        "text": "there is some problem in my newly brought ",
+        "userDefined": false
+      },
+      {
+        "text": "microwave",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1536567241
+  },
+  {
+    "id": "67f1d756-875e-429a-8221-2230bc3bf9e1",
+    "data": [
+      {
+        "text": "something is wrong with my ",
+        "userDefined": false
+      },
+      {
+        "text": "dish washer",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1536567241
+  },
+  {
+    "id": "e6c22764-c3a1-43a5-b135-6d58fe8fef8d",
+    "data": [
+      {
+        "text": "My ",
+        "userDefined": false
+      },
+      {
+        "text": "washing machine",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " is not working",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1536567241
+  }
+]

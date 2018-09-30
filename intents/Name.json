@@ -1,0 +1,80 @@
+{
+  "id": "aee94818-a4b3-4388-9cd5-cfd536a582b5",
+  "name": "Name",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b9299953-65ed-48ce-ab4c-eaf692424231",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can you please renter your name"
+            },
+            {
+              "lang": "en",
+              "value": "I didn\u0027t get that please renter your name."
+            }
+          ],
+          "isList": true
+        },
+        {
+          "id": "90bca139-a999-484d-9867-8afbc5b11c9e",
+          "required": false,
+          "dataType": "@sys.last-name",
+          "name": "last-name",
+          "value": "$last-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Book Service Appointment"
+            },
+            {
+              "title": "Reschedule Appointment"
+            },
+            {
+              "title": "Cancel Appointment"
+            },
+            {
+              "title": "Get Appointment Info"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hello $given-name . How can i help you ?",
+            "Hi $given-name , how can i help you?",
+            "Greetings $given-name , how can i help you ?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538142637,
+  "fallbackIntent": false,
+  "events": []
+}

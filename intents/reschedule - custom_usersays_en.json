@@ -1,0 +1,64 @@
+[
+  {
+    "id": "a668c551-b4ed-488e-af9f-a0a5a9df5567",
+    "data": [
+      {
+        "text": "service",
+        "alias": "Appointment",
+        "meta": "@Appointment",
+        "userDefined": false
+      },
+      {
+        "text": " id : ",
+        "userDefined": false
+      },
+      {
+        "text": "mu0BeaCrIEiktt9PxxUM",
+        "alias": "id",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538146350
+  },
+  {
+    "id": "295ab8e2-e4c8-4a06-b003-81e157512584",
+    "data": [
+      {
+        "text": "service",
+        "alias": "Appointment",
+        "meta": "@Appointment",
+        "userDefined": false
+      },
+      {
+        "text": " id ",
+        "userDefined": false
+      },
+      {
+        "text": "WXfY3Fbe8ZO4d6ILhVrS",
+        "alias": "id",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1538146350
+  },
+  {
+    "id": "6c641aa6-7205-4ebe-b7f5-db73cbadd1ae",
+    "data": [
+      {
+        "text": "mu0BeaCrIEiktt9PxxUM",
+        "alias": "id",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538146350
+  }
+]

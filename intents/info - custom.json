@@ -1,0 +1,48 @@
+{
+  "id": "be319f9a-a02e-443b-9f36-1d3d4c9ea1e5",
+  "parentId": "3b0e3418-d71a-423e-8ec1-40a2e0546bd3",
+  "rootParentId": "3b0e3418-d71a-423e-8ec1-40a2e0546bd3",
+  "name": "info - custom",
+  "auto": true,
+  "contexts": [
+    "Inquire-appointment-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Inquire-appointment.Inquire-appointment-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "61a3248a-d452-4a8e-9078-ab7b09eaec15",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "id",
+          "value": "$id",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please enter your service id"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538329688,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "abd1a1bf-cf7d-475f-b462-1553e46f5ba9",
+    "data": [
+      {
+        "text": "DHRT5654",
+        "alias": "serial-data",
+        "meta": "@serial-data",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1538143799
+  },
+  {
+    "id": "666ccb39-9fe2-44cb-be18-767e2888252d",
+    "data": [
+      {
+        "text": "RFAZ3362",
+        "alias": "serial-data",
+        "meta": "@serial-data",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538143799
+  },
+  {
+    "id": "1d8c1f6f-d9c0-447d-a589-b16fc793f823",
+    "data": [
+      {
+        "text": "FZIN9824",
+        "alias": "serial-data",
+        "meta": "@serial-data",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538143799
+  },
+  {
+    "id": "2852d0b6-ae68-4cd9-ba8f-830aeadd9172",
+    "data": [
+      {
+        "text": "WOPK2251",
+        "alias": "serial-data",
+        "meta": "@serial-data",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538143799
+  },
+  {
+    "id": "0748b6a1-ffef-46fd-b006-36df01c1d140",
+    "data": [
+      {
+        "text": "serial no. ",
+        "userDefined": false
+      },
+      {
+        "text": "MOOP6672",
+        "alias": "serial-data",
+        "meta": "@serial-data",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538143799
+  },
+  {
+    "id": "d02a7918-bf9d-4888-91ec-7d95208a93df",
+    "data": [
+      {
+        "text": "serial number ",
+        "userDefined": false
+      },
+      {
+        "text": "WSHY3347",
+        "alias": "serial-data",
+        "meta": "@serial-data",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538143799
+  }
+]
