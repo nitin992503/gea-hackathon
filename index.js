@@ -64,9 +64,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
             if(doc.exists){
                 // scheduler 
                 let tech = [];
-                console.log(doc.data());
                 doc.data().tech.forEach(ele=>tech.push(db.doc('technician/'+ele)));
-                console.log(tech);
                 //push details of techinicians in array
                 return db.getAll(...tech);
             }
@@ -77,16 +75,13 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
             }
         })
         .then(tec=>{
-            console.log(tec);
             let technician = {};
             tec.forEach(ele=>{
                     let a = ele.id;
                     technician[a]=ele.data();
                 });
-            console.log(technician);
             //schedule appointment
             let schedule = scheduler(technician);
-            console.log(schedule);
             let str='';
             for(let i =0 ;i<schedule.length;i++){
                 str+=`(slot ${i+1} . )  ${schedule[i].date.toDateString()} ${getslot(schedule[i].slot)}      `;                
@@ -103,7 +98,6 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
                 },
                 'lifespan' : 5
             });
-            console.log('done');
             agent.add('please select a time slot for your appointment '+str);
         })
         .catch(function(error) {
@@ -116,17 +110,15 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     function fix(agent){
         let p,q,id;
         request.body.queryResult.outputContexts.forEach(ele => {
-            if(ele.name == 'projects/gea-xssuiw/agent/sessions/e0170c4e-572c-5073-d91a-92314a9f23a5/contexts/appliance')
+            let a = ele.name.split('/');
+            console.log(a[a.length-1]);
+            console.log(a);
+            if(a[a.length-1] == 'appliance')
             p = ele.parameters;
-            else if(ele.name == 'projects/gea-xssuiw/agent/sessions/e0170c4e-572c-5073-d91a-92314a9f23a5/contexts/fix')
+            else if(a[a.length-1] == 'fix')
             q = ele.parameters.schedule;
         });
-        console.log(q);
         let slot =  parseInt(p.slot)-1;
-        console.log(q[0]);
-        console.log(typeof(slot));
-        console.log(q[slot]);
-        console.log(parseInt(q[slot].slot));
         let da = new Date(q[slot].date);
         
         return db.collection("users").add({
@@ -408,7 +400,8 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     function fix2(agent){
         let p,id;
         request.body.queryResult.outputContexts.forEach(ele => {
-            if(ele.name == 'projects/gea-xssuiw/agent/sessions/e0170c4e-572c-5073-d91a-92314a9f23a5/contexts/fix2')
+            let a = ele.name.split('/');
+            if(a[a.length-1] == 'fix2')
             p = ele.parameters;
         });
         id = p.id;
